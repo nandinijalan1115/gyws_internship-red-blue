@@ -1,0 +1,258 @@
+.intern-main-head {
+    background-image: url("../images/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 300px;
+}
+.intern-main-head p {
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media (max-width: 768px) {
+    .intern-main-head {
+        line-height: 200px;
+        height: 200px;
+        font-size: 35px;
+    }
+}
+.intern-headings {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.intern-head-underline {
+    width: 50px;
+    height: 3px;
+    background-color: #fed136;
+    margin-top: 3px;
+}
+.intern-inc-card {
+    background-color: #343a40;
+    border-radius: 10px;
+    padding: 20px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+    border-left: 4px solid #fed136;
+    border-right: 4px solid #fed136;
+}
+.intern-inc-card:hover {
+    transform: translateY(-4px);
+}
+.intern-inc-card img {
+    width: 50%;
+}
+.intern-inc-card p {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section-bg {
+    background-image: url('../images/section-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.intern-circle {
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: #fed136;
+    color: #4D4545;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .intern-timeline.row {
+    display: flex;
+  }
+  .intern-timeline.row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+  .intern-timeline.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #fed136;
+    z-index: 1;
+  }
+  .intern-timeline.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .intern-timeline.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .intern-timeline.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #fed136;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #fed136;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+
+.intern-category-card-parent {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media (max-width: 992px) {
+    .intern-category-card-parent {
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+}
+.intern-category-card {
+    background-color: #fed136;
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 100%;
+    color: #343a40;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-left: 4px solid #343a40;
+    border-right: 4px solid #343a40;
+}
+.intern-category-card:hover {
+    transform: translateY(-4px);
+}
+.intern-category-card .intern-category-head {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.intern-category-card .intern-category-text {
+    font-size: 15px;
+}
+.intern-faq-tab {
+    background-color: #343a40;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.intern-faq-tab:not(.active-tab):hover {
+    background-color: #535c66;
+}
+.intern-faq-tab.active-tab {
+    background-color: #fed136;
+    color: #343a40;
+}
+.intern-faq-tab p.intern-faq-tab-head {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+.intern-faq-ques {
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.intern-faq-arrow {
+    float: right;
+    font-size: large;
+    font-weight: bold;
+}
+.intern-faq-ans {
+    font-size: smaller;
+    display: none;
+}
+@media (min-width: 760px) {
+    .intern-faq-ans {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+.intern-faq-ques span {
+    transition: 0.2s;
+}
+.intern-faq-content:not(.active-tab-content) {
+    display: none;
+}
+.intern-faq-content hr {
+    margin: 0;
+}
+
+.member-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    margin: 10px 0;
+}
+.member-card img {
+    width: 60% !important;
+    border-radius: 50%;
+}
+.member-card .member-name {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 5px 0 5px;
+    margin: 5px 0 0;
+}
+.member-card .member-post {
+    font-size: smaller;
+    font-weight: bolder;
+}
+.member-card .member-social-strip {
+    background-color: black;
+    padding: 5px 5px 7px 5px;
+    border-radius: 8px;
+}
+.member-card .member-social-strip a {
+    color: white;
+    padding: 0 8px;
+    font-size: smaller;
+}
+.member-card .member-social-strip a:hover {
+    color: #fed136;
+}
