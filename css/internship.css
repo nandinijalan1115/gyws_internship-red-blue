@@ -152,6 +152,22 @@ body {
     padding-left: 8px;
     padding-right: 8px;
 }
+.intern-timeline img {
+    width: 70%;
+}
+@media (max-width: 992px) and (min-width: 760px) {
+    .intern-timeline img {
+        width: 100%;
+    }
+}
+@media (max-width: 760px) {
+    .intern-timeline img {
+        width: 80%;
+    }
+    .timeline-img {
+        padding: 0;
+    }
+}
 @media (max-width: 992px) {
     .intern-category-card-parent {
         padding-left: 15px;
