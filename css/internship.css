@@ -170,6 +170,10 @@ body {
     border-left: 3px solid #343a40;
     border-right: 3px solid #343a40;
 }
+.intern-category-card img {
+    width: 30%;
+    margin-bottom: 10px;
+}
 .intern-category-card:hover {
     transform: translateY(-4px);
 }
