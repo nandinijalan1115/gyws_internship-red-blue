@@ -203,6 +203,7 @@ body {
     vertical-align: middle;
     line-height: 1.5;
     font-size: 16px;
+    margin-bottom: 0.5rem;
 }
 .intern-faq-ques {
     cursor: pointer;
