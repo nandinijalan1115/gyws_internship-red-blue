@@ -8,7 +8,7 @@ $(document).ready(function() {
             $(this).next().next().slideUp('fast');
             $(this).find('span').css('transform', 'rotate(0deg)');
         }
-    }) 
+    });
 
     $('.intern-faq-tab').click(function() {
         if(!$(this).hasClass('active-tab')) {
@@ -20,7 +20,20 @@ $(document).ready(function() {
                 content.fadeIn('fast');
                 $('.active-tab-content').removeClass('active-tab-content');
                 content.addClass('active-tab-content');
-            })
+            });
         }
-    })
+    });
+
+    $('#category-bd').click(function() {
+        window.location.href = 'bd.html';
+    });
+    $('#category-t').click(function() {
+        window.location.href = 't.html';
+    });
+    $('#category-sno').click(function() {
+        window.location.href = 'sno.html';
+    });
+    $('#category-ms').click(function() {
+        window.location.href = 'ms.html';
+    });
 });
