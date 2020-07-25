@@ -314,7 +314,7 @@ body {
         width: 30%;
         margin-bottom: 15px;
     }
-    .modal ul.a {
+    .modal ul.intern-positions {
         list-style-type: none;
         font-size: 1.2em;
         margin-left: -5%;
@@ -340,7 +340,7 @@ body {
     font-size: 0.9em;
 }
 
-.modal ul.a {
+.modal ul.intern-positions {
     list-style-type: none;
     font-size: 1.2em;
     margin-left: -1%;
