@@ -291,3 +291,50 @@ body {
 .member-card .member-social-strip a:hover {
     color: #fed136;
 }
+
+/***modals***/
+.modal h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.modal h2 {
+    padding-bottom: 0.2em;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.modal img {
+    width: 70%;
+}
+
+@media (max-width:500px) {
+    .modal img {
+        width: 30%;
+        margin-bottom: 15px;
+    }
+    .modal ul.a {
+        list-style-type: none;
+        font-size: 1.2em;
+        margin-left: -5%;
+    }
+}
+
+
+@media (max-width: 992px) and (min-width: 760px) {
+    .modal img {
+        width: 100%;
+    }
+}
+.modal li {
+    color: rgb(104, 104, 104);
+    margin-left: -5%;
+    font-size: 0.9em;
+}
+
+.modal ul.a {
+    list-style-type: none;
+    font-size: 1.2em;
+    margin-left: -1%;
+}
+

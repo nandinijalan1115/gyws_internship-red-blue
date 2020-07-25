@@ -23,17 +23,4 @@ $(document).ready(function() {
             });
         }
     });
-
-    $('#category-bd').click(function() {
-        window.location.href = 'bd.html';
-    });
-    $('#category-t').click(function() {
-        window.location.href = 't.html';
-    });
-    $('#category-sno').click(function() {
-        window.location.href = 'sno.html';
-    });
-    $('#category-ms').click(function() {
-        window.location.href = 'ms.html';
-    });
 });
