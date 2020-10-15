@@ -1,6 +1,12 @@
 body {
     overflow-x: hidden;
 }
+.bg-dark {
+    color: #1d3557;
+}
+.bg-white {
+    color: #f1faee;
+}
 .intern-main-head {
     background-image: url("../images/main-bg.jpg");
     background-size: cover;
@@ -31,7 +37,7 @@ body {
 .intern-head-underline {
     width: 50px;
     height: 3px;
-    background-color: #fed136;
+    background-color: #e63946;
     margin-top: 3px;
 }
 .intern-inc-card {
@@ -41,13 +47,13 @@ body {
     width: 20%;
 }
 .intern-inc-card ul {
-    color: #fff;
+    color: #f1faee;
 }
 .intern-inc-card ul li {
     margin-bottom: 5px;
 }
 .intern-inc-head {
-    color: #fff;
+    color: #f1faee;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
@@ -71,8 +77,8 @@ body {
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 50%;
-    background-color: #e63946;
-    color: #4D4545;
+    background-color: #1d3557;
+    color: #f1faee;
     max-height: 50px;
     z-index: 2;
   }
@@ -89,7 +95,7 @@ body {
   .intern-timeline.row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 3px solid #fed136;
+    border-left: 3px solid #1d3557;
     z-index: 1;
   }
   .intern-timeline.row .col-2.bottom::after {
