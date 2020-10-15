@@ -71,7 +71,7 @@ body {
     font-weight: bold;
     padding: 15px 20px;
     border-radius: 50%;
-    background-color: #fed136;
+    background-color: #e63946;
     color: #4D4545;
     max-height: 50px;
     z-index: 2;
@@ -116,7 +116,7 @@ body {
     height: 40px;
   }
   .timeline hr {
-    border-top: 3px solid #fed136;
+    border-top: 3px solid #e63946;
     margin: 0;
     top: 17px;
     position: relative;
@@ -126,7 +126,7 @@ body {
     overflow: hidden;
   }
   .timeline .corner {
-    border: 3px solid #fed136;
+    border: 3px solid #e63946;
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -175,7 +175,7 @@ body {
     } 
 }
 .intern-category-card {
-    background-color: #fed136;
+    background-color: #e63946;
     border-radius: 5px;
     padding: 25px 10px;
     height: 100%;
@@ -211,7 +211,7 @@ body {
     background-color: #535c66;
 }
 .intern-faq-tab.active-tab {
-    background-color: #fed136;
+    background-color: #e63946;
     color: #343a40;
 }
 .intern-faq-tab p.intern-faq-tab-head {
@@ -289,7 +289,7 @@ body {
     font-size: smaller;
 }
 .member-card .member-social-strip a:hover {
-    color: #fed136;
+    color: #e63946;
 }
 
 /***modals***/
@@ -347,16 +347,16 @@ body {
 }
 
 .modal-header {
-    background-color:#fed136
+    background-color:#e63946
 }
 .modal-footer {
-    background-color: #383d43;
+    background-color: #1d3557;
 }
 
 .modal .btn {
     padding: 10px;
     color: black;
-    background-color: #fed136;
+    background-color: #e63946;
     font-size: 15px;
     font-family: Poppins;
     opacity: 1;
