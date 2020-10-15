@@ -132,7 +132,7 @@ body {
     overflow: hidden;
   }
   .timeline .corner {
-    border: 3px solid #e63946;
+    border: 3px solid #1d3557;
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -181,16 +181,16 @@ body {
     } 
 }
 .intern-category-card {
-    background-color: #e63946;
+    background-color: #f1faee;
     border-radius: 5px;
     padding: 25px 10px;
     height: 100%;
-    color: #343a40;
+    color: #1d3557;
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-left: 3px solid #343a40;
-    border-right: 3px solid #343a40;
+    border-left: 3px solid #1d3557;
+    border-right: 3px solid #1d3557;
 }
 .intern-category-card img {
     width: 30%;
@@ -205,19 +205,19 @@ body {
     margin-bottom: 0;
 }
 .intern-faq-tab {
-    background-color: #343a40;
+    background-color: #1d3557;
     height: 100px;
     line-height: 100px;
-    color: #fff;
+    color: #f1faee;
     text-align: center;
     cursor: pointer;
     transition: 0.2s;
 }
 .intern-faq-tab:not(.active-tab):hover {
-    background-color: #535c66;
+    background-color: #1d3557;
 }
 .intern-faq-tab.active-tab {
-    background-color: #e63946;
+    background-color: #a8dadc;
     color: #343a40;
 }
 .intern-faq-tab p.intern-faq-tab-head {
