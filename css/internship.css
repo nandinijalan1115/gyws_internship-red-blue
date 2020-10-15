@@ -68,7 +68,8 @@ body {
 }
 
 .section-bg {
-    background-image: url('../images/section-bg.jpg');
+    background-color: #1d3557;
+    color:#f1faee;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
