@@ -2,10 +2,10 @@ body {
     overflow-x: hidden;
 }
 .bg-dark {
-    color: #1d3557;
+    background-color: #1d3557!important;
 }
 .bg-white {
-    color: #f1faee;
+    background-color: #f1faee!important;
 }
 .intern-main-head {
     background-image: url("../images/main-bg.jpg");
